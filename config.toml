@@ -1,7 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-clarity"
+title = "Matthew Kracheys Homepage"
+theme = "toha"
+
+[params]
+    author = "Matthew Krachey"
+    
 
 [[menu.main]]
     name = "About"
