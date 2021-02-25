@@ -2,10 +2,15 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Matthew Kracheys Homepage"
 theme = "toha"
+enableEmoji = true	
 
-[params]
+
+[[params]]
     author = "Matthew Krachey"
-    
+    gitRepo = "https://github.com/aerotuck/portfolio"
+    gitBranch = "main"
+    enableTOC = true
+    enableBlogPost = true
 
 [[menu.main]]
     name = "About"
