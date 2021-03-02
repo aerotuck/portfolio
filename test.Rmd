@@ -1,0 +1,21 @@
+---
+title: "Learning Bayesian Time Series"
+output: html_document
+author: Matthew Krachey
+
+
+---
+
+
+
+## test
+
+```{r, message=FALSE}
+library(data.table)
+library(bsts)
+library(ggplot2)
+library(rstanarm)
+library(cowplot)
+library(scales)
+```
+

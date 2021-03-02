@@ -1,8 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Matthew Kracheys Homepage"
-theme = "toha"
+theme = "hugo-lithium-theme"
 enableEmoji = true	
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown", "_files$", "_cache$"]
 
 
 [[params]]
@@ -11,13 +12,36 @@ enableEmoji = true
     gitBranch = "main"
     enableTOC = true
     enableBlogPost = true
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
 
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "About"
     url = "https://matthewkrachey.netlify.app"
+    weight = 2
 [[menu.main]]
-    name = "GitHub"
+   name = "GitHub"
     url = "https://github.com/aerotuck/portfolio"
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/vitae/"
+    weight = 4
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/KracheyMatthew"
+    weight = 5
+
+
+
+
