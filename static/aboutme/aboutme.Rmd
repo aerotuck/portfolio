@@ -1,0 +1,12 @@
+---
+title: "Matthew Krachey"
+output: html_document
+---
+
+# About Me
+
+I'm a Staff Data Scientist at [The Expedia Group](https://www.expedia.com/) currently working on Flights, but I have also worked in Natural Language Processing, Ranking, Experimentation, Marketing and Identity.
+
+I got a PhD in Biology with a co-major in Biomathematics at [North Carolina State University](www.ncsu.edu). My major research area was in fish and wildlife statistical ecology.
+
+I live in Austin, Texas with my wife and four children.
